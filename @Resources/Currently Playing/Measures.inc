@@ -26,7 +26,7 @@ UpdateDivider=5
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=Cover
-DefaultPath=#@#Images\CurrentlyPlayingNoCover.png
+DefaultPath=#@#Currently Playing\Images\NoCover.png
 UpdateDivider=5
 
 [MeasurePlayerState]
