@@ -29,5 +29,7 @@ Taken and modified from https://visualskins.com/skin/la-compagnie-des-ombres
 Taken and modified from https://visualskins.com/skin/mond
 ### Visualizer
 Taken and modified https://www.deviantart.com/xenium-art/art/Zappo-UPDATED-21-MAY-2023-889868942
+### System meters
+Taken and modified https://visualskins.com/skin/sk-neon-meters-fork
 
 Smoothing calculations taken and modified from https://github.com/marcopixel/monstercat-visualizer
