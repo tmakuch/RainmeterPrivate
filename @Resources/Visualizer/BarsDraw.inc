@@ -1,8 +1,8 @@
 [MeterBase0]
 Meter=String
-X=(#size#*#leftOffset#)
-Y=(#size#*#topOffset#)
-FontSize=(#size#*#fontMultiplier#)
+X=(#Scale#*#LeftOffset#)
+Y=(#Scale#*#TopOffset#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -10,9 +10,9 @@ Angle=(Rad(270))
 
 [MeterBase1]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -20,9 +20,9 @@ Angle=(Rad(270))
 
 [MeterBase2]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -30,9 +30,9 @@ Angle=(Rad(270))
 
 [MeterBase3]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -40,9 +40,9 @@ Angle=(Rad(270))
 
 [MeterBase4]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -50,9 +50,9 @@ Angle=(Rad(270))
 
 [MeterBase5]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -60,9 +60,9 @@ Angle=(Rad(270))
 
 [MeterBase6]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -70,9 +70,9 @@ Angle=(Rad(270))
 
 [MeterBase7]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -80,9 +80,9 @@ Angle=(Rad(270))
 
 [MeterBase8]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -90,9 +90,9 @@ Angle=(Rad(270))
 
 [MeterBase9]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -100,9 +100,9 @@ Angle=(Rad(270))
 
 [MeterBase10]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -110,9 +110,9 @@ Angle=(Rad(270))
 
 [MeterBase11]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -120,9 +120,9 @@ Angle=(Rad(270))
 
 [MeterBase12]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -130,9 +130,9 @@ Angle=(Rad(270))
 
 [MeterBase13]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -140,9 +140,9 @@ Angle=(Rad(270))
 
 [MeterBase14]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -150,9 +150,9 @@ Angle=(Rad(270))
 
 [MeterBase15]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -160,9 +160,9 @@ Angle=(Rad(270))
 
 [MeterBase16]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -170,9 +170,9 @@ Angle=(Rad(270))
 
 [MeterBase17]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -180,9 +180,9 @@ Angle=(Rad(270))
 
 [MeterBase18]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -190,9 +190,9 @@ Angle=(Rad(270))
 
 [MeterBase19]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -200,9 +200,9 @@ Angle=(Rad(270))
 
 [MeterBase20]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -210,9 +210,9 @@ Angle=(Rad(270))
 
 [MeterBase21]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -220,9 +220,9 @@ Angle=(Rad(270))
 
 [MeterBase22]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -230,9 +230,9 @@ Angle=(Rad(270))
 
 [MeterBase23]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -240,9 +240,9 @@ Angle=(Rad(270))
 
 [MeterBase24]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -250,9 +250,9 @@ Angle=(Rad(270))
 
 [MeterBase25]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -260,9 +260,9 @@ Angle=(Rad(270))
 
 [MeterBase26]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -270,9 +270,9 @@ Angle=(Rad(270))
 
 [MeterBase27]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -280,9 +280,9 @@ Angle=(Rad(270))
 
 [MeterBase28]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -290,9 +290,9 @@ Angle=(Rad(270))
 
 [MeterBase29]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -300,9 +300,9 @@ Angle=(Rad(270))
 
 [MeterBase30]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -310,9 +310,9 @@ Angle=(Rad(270))
 
 [MeterBase31]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -320,9 +320,9 @@ Angle=(Rad(270))
 
 [MeterBase32]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -330,9 +330,9 @@ Angle=(Rad(270))
 
 [MeterBase33]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -340,9 +340,9 @@ Angle=(Rad(270))
 
 [MeterBase34]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -350,9 +350,9 @@ Angle=(Rad(270))
 
 [MeterBase35]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -360,9 +360,9 @@ Angle=(Rad(270))
 
 [MeterBase36]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -370,9 +370,9 @@ Angle=(Rad(270))
 
 [MeterBase37]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -380,9 +380,9 @@ Angle=(Rad(270))
 
 [MeterBase38]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -390,9 +390,9 @@ Angle=(Rad(270))
 
 [MeterBase39]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -400,9 +400,9 @@ Angle=(Rad(270))
 
 [MeterBase40]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -410,9 +410,9 @@ Angle=(Rad(270))
 
 [MeterBase41]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -420,9 +420,9 @@ Angle=(Rad(270))
 
 [MeterBase42]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -430,9 +430,9 @@ Angle=(Rad(270))
 
 [MeterBase43]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -440,9 +440,9 @@ Angle=(Rad(270))
 
 [MeterBase44]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -450,9 +450,9 @@ Angle=(Rad(270))
 
 [MeterBase45]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -460,9 +460,9 @@ Angle=(Rad(270))
 
 [MeterBase46]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -470,9 +470,9 @@ Angle=(Rad(270))
 
 [MeterBase47]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -480,9 +480,9 @@ Angle=(Rad(270))
 
 [MeterBase48]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -490,9 +490,9 @@ Angle=(Rad(270))
 
 [MeterBase49]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -500,9 +500,9 @@ Angle=(Rad(270))
 
 [MeterBase50]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -510,9 +510,9 @@ Angle=(Rad(270))
 
 [MeterBase51]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -520,9 +520,9 @@ Angle=(Rad(270))
 
 [MeterBase52]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -530,9 +530,9 @@ Angle=(Rad(270))
 
 [MeterBase53]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -540,9 +540,9 @@ Angle=(Rad(270))
 
 [MeterBase54]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -550,9 +550,9 @@ Angle=(Rad(270))
 
 [MeterBase55]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -560,9 +560,9 @@ Angle=(Rad(270))
 
 [MeterBase56]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -570,9 +570,9 @@ Angle=(Rad(270))
 
 [MeterBase57]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -580,9 +580,9 @@ Angle=(Rad(270))
 
 [MeterBase58]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -590,9 +590,9 @@ Angle=(Rad(270))
 
 [MeterBase59]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -600,9 +600,9 @@ Angle=(Rad(270))
 
 [MeterBase60]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -610,9 +610,9 @@ Angle=(Rad(270))
 
 [MeterBase61]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -620,9 +620,9 @@ Angle=(Rad(270))
 
 [MeterBase62]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -630,9 +630,9 @@ Angle=(Rad(270))
 
 [MeterBase63]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -640,9 +640,9 @@ Angle=(Rad(270))
 
 [MeterBase64]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -650,9 +650,9 @@ Angle=(Rad(270))
 
 [MeterBase65]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -660,9 +660,9 @@ Angle=(Rad(270))
 
 [MeterBase66]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -670,9 +670,9 @@ Angle=(Rad(270))
 
 [MeterBase67]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -680,9 +680,9 @@ Angle=(Rad(270))
 
 [MeterBase68]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -690,9 +690,9 @@ Angle=(Rad(270))
 
 [MeterBase69]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -700,9 +700,9 @@ Angle=(Rad(270))
 
 [MeterBase70]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -710,9 +710,9 @@ Angle=(Rad(270))
 
 [MeterBase71]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -720,9 +720,9 @@ Angle=(Rad(270))
 
 [MeterBase72]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -730,9 +730,9 @@ Angle=(Rad(270))
 
 [MeterBase73]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -740,9 +740,9 @@ Angle=(Rad(270))
 
 [MeterBase74]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -750,9 +750,9 @@ Angle=(Rad(270))
 
 [MeterBase75]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -760,9 +760,9 @@ Angle=(Rad(270))
 
 [MeterBase76]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -770,9 +770,9 @@ Angle=(Rad(270))
 
 [MeterBase77]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -780,9 +780,9 @@ Angle=(Rad(270))
 
 [MeterBase78]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -790,9 +790,9 @@ Angle=(Rad(270))
 
 [MeterBase79]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 FontColor=#VisualizerBandColor#
 Text=#Sq2#
 AntiAlias=1
@@ -804,9 +804,9 @@ Angle=(Rad(270))
 
 [MeterBand0]
 Meter=String
-X=(#size#*#leftOffset#)
-y=(#size#*#topOffset2#)
-FontSize=(#size#*#fontMultiplier#)
+X=(#Scale#*#LeftOffset#)
+y=(#Scale#*#TopOffset2#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -816,9 +816,9 @@ Angle=(Rad(270))
 
 [MeterBand1]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -828,9 +828,9 @@ Angle=(Rad(270))
 
 [MeterBand2]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -840,9 +840,9 @@ Angle=(Rad(270))
 
 [MeterBand3]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -852,9 +852,9 @@ Angle=(Rad(270))
 
 [MeterBand4]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -864,9 +864,9 @@ Angle=(Rad(270))
 
 [MeterBand5]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -876,9 +876,9 @@ Angle=(Rad(270))
 
 [MeterBand6]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -888,9 +888,9 @@ Angle=(Rad(270))
 
 [MeterBand7]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -900,9 +900,9 @@ Angle=(Rad(270))
 
 [MeterBand8]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -912,9 +912,9 @@ Angle=(Rad(270))
 
 [MeterBand9]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -924,9 +924,9 @@ Angle=(Rad(270))
 
 [MeterBand10]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -936,9 +936,9 @@ Angle=(Rad(270))
 
 [MeterBand11]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -948,9 +948,9 @@ Angle=(Rad(270))
 
 [MeterBand12]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -960,9 +960,9 @@ Angle=(Rad(270))
 
 [MeterBand13]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -972,9 +972,9 @@ Angle=(Rad(270))
 
 [MeterBand14]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -984,9 +984,9 @@ Angle=(Rad(270))
 
 [MeterBand15]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -996,9 +996,9 @@ Angle=(Rad(270))
 
 [MeterBand16]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1008,9 +1008,9 @@ Angle=(Rad(270))
 
 [MeterBand17]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1020,9 +1020,9 @@ Angle=(Rad(270))
 
 [MeterBand18]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1032,9 +1032,9 @@ Angle=(Rad(270))
 
 [MeterBand19]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1044,9 +1044,9 @@ Angle=(Rad(270))
 
 [MeterBand20]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1056,9 +1056,9 @@ Angle=(Rad(270))
 
 [MeterBand21]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1068,9 +1068,9 @@ Angle=(Rad(270))
 
 [MeterBand22]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1080,9 +1080,9 @@ Angle=(Rad(270))
 
 [MeterBand23]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1092,9 +1092,9 @@ Angle=(Rad(270))
 
 [MeterBand24]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1104,9 +1104,9 @@ Angle=(Rad(270))
 
 [MeterBand25]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1116,9 +1116,9 @@ Angle=(Rad(270))
 
 [MeterBand26]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1128,9 +1128,9 @@ Angle=(Rad(270))
 
 [MeterBand27]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1140,9 +1140,9 @@ Angle=(Rad(270))
 
 [MeterBand28]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1152,9 +1152,9 @@ Angle=(Rad(270))
 
 [MeterBand29]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1164,9 +1164,9 @@ Angle=(Rad(270))
 
 [MeterBand30]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1176,9 +1176,9 @@ Angle=(Rad(270))
 
 [MeterBand31]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1188,9 +1188,9 @@ Angle=(Rad(270))
 
 [MeterBand32]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1200,9 +1200,9 @@ Angle=(Rad(270))
 
 [MeterBand33]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1212,9 +1212,9 @@ Angle=(Rad(270))
 
 [MeterBand34]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1224,9 +1224,9 @@ Angle=(Rad(270))
 
 [MeterBand35]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1236,9 +1236,9 @@ Angle=(Rad(270))
 
 [MeterBand36]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1248,9 +1248,9 @@ Angle=(Rad(270))
 
 [MeterBand37]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1260,9 +1260,9 @@ Angle=(Rad(270))
 
 [MeterBand38]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1272,9 +1272,9 @@ Angle=(Rad(270))
 
 [MeterBand39]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1284,9 +1284,9 @@ Angle=(Rad(270))
 
 [MeterBand40]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1296,9 +1296,9 @@ Angle=(Rad(270))
 
 [MeterBand41]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1308,9 +1308,9 @@ Angle=(Rad(270))
 
 [MeterBand42]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1320,9 +1320,9 @@ Angle=(Rad(270))
 
 [MeterBand43]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1332,9 +1332,9 @@ Angle=(Rad(270))
 
 [MeterBand44]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1344,9 +1344,9 @@ Angle=(Rad(270))
 
 [MeterBand45]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1356,9 +1356,9 @@ Angle=(Rad(270))
 
 [MeterBand46]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1368,9 +1368,9 @@ Angle=(Rad(270))
 
 [MeterBand47]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1380,9 +1380,9 @@ Angle=(Rad(270))
 
 [MeterBand48]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1392,9 +1392,9 @@ Angle=(Rad(270))
 
 [MeterBand49]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1404,9 +1404,9 @@ Angle=(Rad(270))
 
 [MeterBand50]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1416,9 +1416,9 @@ Angle=(Rad(270))
 
 [MeterBand51]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1428,9 +1428,9 @@ Angle=(Rad(270))
 
 [MeterBand52]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1440,9 +1440,9 @@ Angle=(Rad(270))
 
 [MeterBand53]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1452,9 +1452,9 @@ Angle=(Rad(270))
 
 [MeterBand54]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1464,9 +1464,9 @@ Angle=(Rad(270))
 
 [MeterBand55]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1476,9 +1476,9 @@ Angle=(Rad(270))
 
 [MeterBand56]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1488,9 +1488,9 @@ Angle=(Rad(270))
 
 [MeterBand57]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1500,9 +1500,9 @@ Angle=(Rad(270))
 
 [MeterBand58]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1512,9 +1512,9 @@ Angle=(Rad(270))
 
 [MeterBand59]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1524,9 +1524,9 @@ Angle=(Rad(270))
 
 [MeterBand60]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1536,9 +1536,9 @@ Angle=(Rad(270))
 
 [MeterBand61]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1548,9 +1548,9 @@ Angle=(Rad(270))
 
 [MeterBand62]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1560,9 +1560,9 @@ Angle=(Rad(270))
 
 [MeterBand63]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1572,9 +1572,9 @@ Angle=(Rad(270))
 
 [MeterBand64]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1584,9 +1584,9 @@ Angle=(Rad(270))
 
 [MeterBand65]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1596,9 +1596,9 @@ Angle=(Rad(270))
 
 [MeterBand66]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1608,9 +1608,9 @@ Angle=(Rad(270))
 
 [MeterBand67]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1620,9 +1620,9 @@ Angle=(Rad(270))
 
 [MeterBand68]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1632,9 +1632,9 @@ Angle=(Rad(270))
 
 [MeterBand69]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1644,9 +1644,9 @@ Angle=(Rad(270))
 
 [MeterBand70]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1656,9 +1656,9 @@ Angle=(Rad(270))
 
 [MeterBand71]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1668,9 +1668,9 @@ Angle=(Rad(270))
 
 [MeterBand72]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1680,9 +1680,9 @@ Angle=(Rad(270))
 
 [MeterBand73]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1692,9 +1692,9 @@ Angle=(Rad(270))
 
 [MeterBand74]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1704,9 +1704,9 @@ Angle=(Rad(270))
 
 [MeterBand75]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1716,9 +1716,9 @@ Angle=(Rad(270))
 
 [MeterBand76]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1728,9 +1728,9 @@ Angle=(Rad(270))
 
 [MeterBand77]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1740,9 +1740,9 @@ Angle=(Rad(270))
 
 [MeterBand78]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1752,9 +1752,9 @@ Angle=(Rad(270))
 
 [MeterBand79]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
@@ -1764,9 +1764,9 @@ Angle=(Rad(270))
 
 [MeterBand80]
 Meter=String
-X=(#size#*#space#)r
+X=(#Scale#*#Space#)r
 Y=0r
-FontSize=(#size#*#fontMultiplier#)
+FontSize=(#Scale#*#FontMultiplier#)
 Text=#Sq1#
 AntiAlias=1
 DynamicVariables=1
