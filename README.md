@@ -8,6 +8,11 @@ Clone this repository to your skins folder, i.e.
 D:\Documents\Rainmeter\Skins
 ```
 
+### Getting spotify stats on rainmeter
+Old was was to get webnowplaying, a plugin through Specitify (tool to customize Spotify), but now Spotify supports NativeApi which sends information to Windows directly. Rainmeter is able to tap into this stream.
+
+Go to settings in Spotify and make sure `Show desktop overlay when using media keys` is enabled.
+
 ### Using prepared layout
 Layout file (`layout.ini`) should be named `Rainmeter.ini` and stored in folder:
 ```
