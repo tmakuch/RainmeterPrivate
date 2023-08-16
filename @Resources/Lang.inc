@@ -8,3 +8,6 @@ RecycleBinSize=Rozmiar
 DriveName=Dysk
 DriveFree=Free
 DriveTotal=Total
+CpuName=CPU
+GpuName=GPU
+VrmName=VRAM
