@@ -5,3 +5,6 @@ DayReplaces="Monday":"Poniedzialek","Tuesday":"Wtorek","Wednesday":"Sroda","Thur
 RecycleBin=Kosz
 RecycleBinFiles=Pliki
 RecycleBinSize=Rozmiar
+DriveName=Dysk
+DriveFree=Free
+DriveTotal=Total
