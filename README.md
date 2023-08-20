@@ -31,5 +31,7 @@ Taken and modified from https://visualskins.com/skin/mond
 Taken and modified https://www.deviantart.com/xenium-art/art/Zappo-UPDATED-21-MAY-2023-889868942
 ### System meters
 Taken and modified https://visualskins.com/skin/sk-neon-meters-fork
+### Launcher
+Icons by Icons8 https://icons8.com/
 
 Smoothing calculations taken and modified from https://github.com/marcopixel/monstercat-visualizer
