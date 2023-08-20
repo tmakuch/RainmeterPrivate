@@ -71,13 +71,13 @@ Plugin=Process
 ProcessName=upc.exe
 Substitute="1":"0","-1":"1","-0":"1"
 
-[RunMeasureGOG]
+[RunMeasureGOGConnect]
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files (x86)\GOG Galaxy\GalaxyClient.exe"
 State=Hide
 
-[MeasureGOGHideRunning]
+[MeasureGOGConnectHideRunning]
 Measure=Plugin
 Plugin=Process
 ProcessName=GalaxyClient.exe
