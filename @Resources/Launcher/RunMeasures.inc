@@ -3,7 +3,7 @@ Measure=Plugin
 Plugin=RunCommand
 Program="C:\Users\tedeusz\AppData\Local\Discord\Update.exe"
 Parameter="--processStart Discord.exe"
-State=Hide
+State=Show
 
 [MeasureDiscordHideRunning]
 Measure=Plugin
@@ -15,7 +15,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Users\tedeusz\AppData\Roaming\Telegram Desktop\Telegram.exe"
-State=Hide
+State=Show
 
 [MeasureTelegramHideRunning]
 Measure=Plugin
@@ -27,7 +27,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Users\tedeusz\AppData\Local\slack\slack.exe"
-State=Hide
+State=Show
 
 [MeasureSlackHideRunning]
 Measure=Plugin
@@ -39,7 +39,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files (x86)\Steam\steam.exe"
-State=Hide
+State=Show
 
 [MeasureSteamHideRunning]
 Measure=Plugin
@@ -51,19 +51,19 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files (x86)\Battle.net\Battle.net.exe"
-State=Hide
+State=Show
 
 [MeasureBattleNetHideRunning]
 Measure=Plugin
 Plugin=Process
-ProcessName=steamwebhelper.exe
+ProcessName=Battle.net.exe
 Substitute="1":"0","-1":"1","-0":"1"
 
 [RunMeasureUbisoftConnect]
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UbisoftConnect.exe"
-State=Hide
+State=Show
 
 [MeasureUbisoftConnectHideRunning]
 Measure=Plugin
@@ -75,7 +75,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files (x86)\GOG Galaxy\GalaxyClient.exe"
-State=Hide
+State=Show
 
 [MeasureGOGConnectHideRunning]
 Measure=Plugin
@@ -87,7 +87,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files\JetBrains\WebStorm 2023.1.1\bin\webstorm64.exe"
-State=Hide
+State=Show
 
 [MeasureWebstormHideRunning]
 Measure=Plugin
@@ -99,7 +99,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Users\tedeusz\AppData\Local\Programs\Microsoft VS Code\Code.exe"
-State=Hide
+State=Show
 
 [MeasureVSCodeHideRunning]
 Measure=Plugin
@@ -111,7 +111,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files\Android\Android Studio\bin\studio64.exe"
-State=Hide
+State=Show
 
 [MeasureAndroidStudioHideRunning]
 Measure=Plugin
@@ -123,7 +123,8 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files\obs-studio\bin\64bit\obs64.exe"
-State=Hide
+StartInFolder="C:\Program Files\obs-studio\bin\64bit"
+State=Show
 
 [MeasureObsStudioHideRunning]
 Measure=Plugin
@@ -135,7 +136,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files (x86)\Deathcounter and Soundboard\DCSB.exe"
-State=Hide
+State=Show
 
 [MeasureSoundBoardHideRunning]
 Measure=Plugin
@@ -147,7 +148,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files\GIMP 2\bin\gimp-2.10.exe"
-State=Hide
+State=Show
 
 [MeasureGimpHideRunning]
 Measure=Plugin
@@ -159,7 +160,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files\Audacity\Audacity.exe"
-State=Hide
+State=Show
 
 [MeasureAudacityHideRunning]
 Measure=Plugin
@@ -171,7 +172,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files\Blender Foundation\Blender 3.5\blender-launcher.exe"
-State=Hide
+State=Show
 
 [MeasureBlenderHideRunning]
 Measure=Plugin
@@ -183,7 +184,7 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=RunCommand
 Program="C:\Program Files\HandBrake\HandBrake.exe"
-State=Hide
+State=Show
 
 [MeasureHandBreakHideRunning]
 Measure=Plugin
