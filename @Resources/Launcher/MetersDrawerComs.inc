@@ -1,12 +1,12 @@
 [MeterComsTitle]
 Meter=String
 X=#LauncherMargin#
-Y=#LauncherMargin#
+Y=(#LauncherMargin#+#LineHeight#+#VerticalOffset#+#SingleIconOffset#+#DailySectionCurrentHeightDynamic#)
 W=#ContainerWidth#
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Coms"
-LeftMouseUpAction=[!SetVariable ComsSectionCurrentHeightDynamic "(#ComsSectionCurrentHeightDynamic# <> 0 ? 0 :#ComsSectionExpandedHeight#)"][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
+LeftMouseUpAction=[!SetVariable ComsSectionCurrentHeightDynamic "(#ComsSectionCurrentHeightDynamic# <> 0 ? 0 :#ComsSectionExpandedHeight#)"][!SetVariable DailySectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
 DynamicVariables=1
 
 [MeterProgramDiscord]
@@ -117,7 +117,7 @@ DynamicVariables=1
 [MeterProgramDiscordIcon]
 Meter=Image
 X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
-Y=(#LauncherMargin#+#SingleIconOffset#)
+Y=([MeterComsTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
 Hidden=(#ComsSectionCurrentHeightDynamic# > 0 ? 1 : 0)

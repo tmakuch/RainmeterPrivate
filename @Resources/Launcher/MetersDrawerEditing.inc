@@ -1,12 +1,12 @@
 [MeterEditingTitle]
 Meter=String
 X=#LauncherMargin#
-Y=(#LauncherMargin#+4*(#LineHeight#+#VerticalOffset#)+#SingleIconOffset#+#ComsSectionCurrentHeightDynamic#+#GamesSectionCurrentHeightDynamic#+#CodingSectionCurrentHeightDynamic#+#StreamingSectionCurrentHeightDynamic#)
+Y=(#LauncherMargin#+5*(#LineHeight#+#VerticalOffset#)+#SingleIconOffset#+#DailySectionCurrentHeightDynamic#+#ComsSectionCurrentHeightDynamic#+#GamesSectionCurrentHeightDynamic#+#CodingSectionCurrentHeightDynamic#+#StreamingSectionCurrentHeightDynamic#)
 W=#ContainerWidth#
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Editing"
-LeftMouseUpAction=[!SetVariable EditingSectionCurrentHeightDynamic "(#EditingSectionCurrentHeightDynamic# <> 0 ? 0 :#EditingSectionExpandedHeight#)"][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!Update]
+LeftMouseUpAction=[!SetVariable EditingSectionCurrentHeightDynamic "(#EditingSectionCurrentHeightDynamic# <> 0 ? 0 :#EditingSectionExpandedHeight#)"][!SetVariable DailySectionCurrentHeightDynamic 0][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!Update]
 DynamicVariables=1
 
 [MeterProgramGimp]
@@ -152,7 +152,7 @@ DynamicVariables=1
 [MeterProgramGimpIcon]
 Meter=Image
 X=#IconsOffset#
-Y=(#LauncherMargin#+4*(#LineHeight#+#VerticalOffset#)+#SingleIconOffset#+#ComsSectionCurrentHeightDynamic#+#GamesSectionCurrentHeightDynamic#+#CodingSectionCurrentHeightDynamic#+#StreamingSectionCurrentHeightDynamic#)
+Y=([MeterEditingTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
 Hidden=(#EditingSectionCurrentHeightDynamic# > 0 ? 1 : 0)

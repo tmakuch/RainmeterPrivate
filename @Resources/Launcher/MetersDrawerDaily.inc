@@ -1,127 +1,127 @@
-[MeterStreamingTitle]
+[MeterDailyTitle]
 Meter=String
 X=#LauncherMargin#
-Y=(#LauncherMargin#+4*(#LineHeight#+#VerticalOffset#)+#SingleIconOffset#+#DailySectionCurrentHeightDynamic#+#ComsSectionCurrentHeightDynamic#+#GamesSectionCurrentHeightDynamic#+#CodingSectionCurrentHeightDynamic#)
+Y=(1.5*#LauncherMargin#)
 W=#ContainerWidth#
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
-Text="Streaming"
-LeftMouseUpAction=[!SetVariable StreamingSectionCurrentHeightDynamic "(#StreamingSectionCurrentHeightDynamic# <> 0 ? 0 :#StreamingSectionExpandedHeight#)"][!SetVariable DailySectionCurrentHeightDynamic 0][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
+Text="Daily"
+LeftMouseUpAction=[!SetVariable DailySectionCurrentHeightDynamic "(#DailySectionCurrentHeightDynamic# <> 0 ? 0 :#DailySectionExpandedHeight#)"][!SetVariable CxomsSectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
 DynamicVariables=1
 
-[MeterProgramObsStudio]
+[MeterProgramSpotify]
 Meter=String
 X=(2.5*#LauncherMargin#)
 Y=(#LineHeight#+#VerticalOffset#)r
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 0 : 1)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
-Text="OBS Studio"
-LeftMouseUpAction=["C:\Program Files\obs-studio\bin\64bit\obs64.exe"]
+Text="Spotify"
+LeftMouseUpAction=["C:\Users\tedeusz\AppData\Roaming\Spotify\Spotify.exe"]
 DynamicVariables=1
 
-[MeterProgramObsStudioIconInline]
+[MeterProgramSpotifyIconInline]
 Meter=Image
 X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=#SingleIconOffset#r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 0 : 1)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\obs-studio.png
+ImageName=#@#Launcher\Icons\spotify.png
 DynamicVariables=1
 
-[MeterProgramObsStudioActiveInline]
+[MeterProgramSpotifyActiveInline]
 Meter=Image
 X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# = 0 || [MeasureObsStudioHideRunning] ? 1 : 0)
+Hidden=(#DailySectionCurrentHeightDynamic# = 0 || [MeasureSpotifyHideRunning] ? 1 : 0)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png
 DynamicVariables=1
 
-[MeterProgramSoundBoard]
+[MeterProgramChrome]
 Meter=String
 X=(2.5*#LauncherMargin#)
 Y=(#LineHeight#+#VerticalOffset#)r
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 0 : 1)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
-Text="SoundBoard"
-LeftMouseUpAction=["C:\Program Files (x86)\Deathcounter and Soundboard\DCSB.exe"]
+Text="Chrome"
+LeftMouseUpAction=["C:\Program Files\Google\Chrome\Application\chrome.exe"]
 DynamicVariables=1
 
-[MeterProgramSoundBoardIconInline]
+[MeterProgramChromeIconInline]
 Meter=Image
 X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 0 : 1)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\soundboard.png
+ImageName=#@#Launcher\Icons\chrome.png
 DynamicVariables=1
 
-[MeterProgramSoundBoardActiveInline]
+[MeterProgramChromeActiveInline]
 Meter=Image
 X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# = 0 || [MeasureSoundBoardHideRunning] ? 1 : 0)
+Hidden=(#DailySectionCurrentHeightDynamic# = 0 || [MeasureChromeHideRunning] ? 1 : 0)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png
 DynamicVariables=1
 
-[MeterProgramObsStudioIcon]
+[MeterProgramSpotifyIcon]
 Meter=Image
 X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
-Y=([MeterStreamingTitle:Y]+#SingleIconOffset#)
+Y=([MeterDailyTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 1 : 0)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 1 : 0)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\obs-studio.png
+ImageName=#@#Launcher\Icons\spotify.png
 DynamicVariables=1
 
-[MeterProgramObsStudioActive]
+[MeterProgramSpotifyActive]
 Meter=Image
 X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 || [MeasureObsStudioHideRunning] ? 1 : 0)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 || [MeasureSpotifyHideRunning] ? 1 : 0)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png
 DynamicVariables=1
 
-[MeterProgramSoundBoardIcon]
+[MeterProgramChromeIcon]
 Meter=Image
 X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 1 : 0)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 1 : 0)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\soundboard.png
+ImageName=#@#Launcher\Icons\chrome.png
 DynamicVariables=1
 
-[MeterProgramSoundBoardActive]
+[MeterProgramChromeActive]
 Meter=Image
 X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 || [MeasureSoundBoardHideRunning] ? 1 : 0)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 || [MeasureChromeHideRunning] ? 1 : 0)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png

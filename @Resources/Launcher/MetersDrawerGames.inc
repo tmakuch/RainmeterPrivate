@@ -1,12 +1,12 @@
 [MeterGamesTitle]
 Meter=String
 X=#LauncherMargin#
-Y=(#LauncherMargin#+#LineHeight#+#VerticalOffset#+#ComsSectionCurrentHeightDynamic#)
+Y=(#LauncherMargin#+2*(#LineHeight#+#VerticalOffset#)+#SingleIconOffset#+#DailySectionCurrentHeightDynamic#+#ComsSectionCurrentHeightDynamic#)
 W=#ContainerWidth#
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Games"
-LeftMouseUpAction=[!SetVariable GamesSectionCurrentHeightDynamic "(#GamesSectionCurrentHeightDynamic# <> 0 ? 0 :#GamesSectionExpandedHeight#)"][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
+LeftMouseUpAction=[!SetVariable GamesSectionCurrentHeightDynamic "(#GamesSectionCurrentHeightDynamic# <> 0 ? 0 :#GamesSectionExpandedHeight#)"][!SetVariable DailySectionCurrentHeightDynamic 0][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
 DynamicVariables=1
 
 [MeterProgramSteam]
@@ -152,7 +152,7 @@ DynamicVariables=1
 [MeterProgramSteamIcon]
 Meter=Image
 X=#IconsOffset#
-Y=(#LauncherMargin#+#LineHeight#+#SingleIconOffset#+#VerticalOffset#+#ComsSectionCurrentHeightDynamic#)
+Y=([MeterGamesTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
 Hidden=(#GamesSectionCurrentHeightDynamic# > 0 ? 1 : 0)

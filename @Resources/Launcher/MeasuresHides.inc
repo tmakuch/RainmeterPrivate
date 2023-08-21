@@ -1,3 +1,15 @@
+[MeasureSpotifyHideRunning]
+Measure=Plugin
+Plugin=Process
+ProcessName=Spotify.exe
+Substitute="1":"0","-1":"1","-0":"1"
+
+[MeasureChromeHideRunning]
+Measure=Plugin
+Plugin=Process
+ProcessName=chrome.exe
+Substitute="1":"0","-1":"1","-0":"1"
+
 [MeasureDiscordHideRunning]
 Measure=Plugin
 Plugin=Process

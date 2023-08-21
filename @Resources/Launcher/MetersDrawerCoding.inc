@@ -1,12 +1,12 @@
 [MeterCodingTitle]
 Meter=String
 X=#LauncherMargin#
-Y=(#LauncherMargin#+2*(#LineHeight#+#VerticalOffset#)+#SingleIconOffset#+#ComsSectionCurrentHeightDynamic#+#GamesSectionCurrentHeightDynamic#)
+Y=(#LauncherMargin#+3*(#LineHeight#+#VerticalOffset#)+#SingleIconOffset#+#DailySectionCurrentHeightDynamic#+#ComsSectionCurrentHeightDynamic#+#GamesSectionCurrentHeightDynamic#)
 W=#ContainerWidth#
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Coding"
-LeftMouseUpAction=[!SetVariable CodingSectionCurrentHeightDynamic "(#CodingSectionCurrentHeightDynamic# <> 0 ? 0 :#CodingSectionExpandedHeight#)"][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
+LeftMouseUpAction=[!SetVariable CodingSectionCurrentHeightDynamic "(#CodingSectionCurrentHeightDynamic# <> 0 ? 0 :#CodingSectionExpandedHeight#)"][!SetVariable DailySectionCurrentHeightDynamic 0][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
 DynamicVariables=1
 
 [MeterProgramWebstorm]
@@ -117,7 +117,7 @@ DynamicVariables=1
 [MeterProgramWebstormIcon]
 Meter=Image
 X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
-Y=(#LauncherMargin#+2*(#LineHeight#+#VerticalOffset#)+#SingleIconOffset#+#ComsSectionCurrentHeightDynamic#+#GamesSectionCurrentHeightDynamic#)
+Y=([MeterCodingTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
 Hidden=(#CodingSectionCurrentHeightDynamic# > 0 ? 1 : 0)
