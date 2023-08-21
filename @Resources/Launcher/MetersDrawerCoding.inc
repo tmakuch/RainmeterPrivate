@@ -6,7 +6,7 @@ W=#ContainerWidth#
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Coding"
-LeftMouseUpAction=[!SetVariable CodingSectionCurrentHeightDynamic "(#CodingSectionCurrentHeightDynamic# <> 0 ? 0 :#CodingSectionExpandedHeight#)"][!SetVariable DailySectionCurrentHeightDynamic 0][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
+LeftMouseUpAction=#ActionTriggerCloseAllTimer##ActionCloseAllDrawers#[!SetVariable CodingSectionCurrentHeightDynamic "(#CodingSectionCurrentHeightDynamic# <> 0 ? 0 :#CodingSectionExpandedHeight#)"][!Update]
 DynamicVariables=1
 
 [MeterProgramWebstorm]

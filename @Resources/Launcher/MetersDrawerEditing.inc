@@ -6,7 +6,7 @@ W=#ContainerWidth#
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Editing"
-LeftMouseUpAction=[!SetVariable EditingSectionCurrentHeightDynamic "(#EditingSectionCurrentHeightDynamic# <> 0 ? 0 :#EditingSectionExpandedHeight#)"][!SetVariable DailySectionCurrentHeightDynamic 0][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!Update]
+LeftMouseUpAction=#ActionTriggerCloseAllTimer##ActionCloseAllDrawers#[!SetVariable EditingSectionCurrentHeightDynamic "(#EditingSectionCurrentHeightDynamic# <> 0 ? 0 :#EditingSectionExpandedHeight#)"][!Update]
 DynamicVariables=1
 
 [MeterProgramGimp]

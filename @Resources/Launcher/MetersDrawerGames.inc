@@ -6,7 +6,7 @@ W=#ContainerWidth#
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Games"
-LeftMouseUpAction=[!SetVariable GamesSectionCurrentHeightDynamic "(#GamesSectionCurrentHeightDynamic# <> 0 ? 0 :#GamesSectionExpandedHeight#)"][!SetVariable DailySectionCurrentHeightDynamic 0][!SetVariable ComsSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
+LeftMouseUpAction=#ActionTriggerCloseAllTimer##ActionCloseAllDrawers#[!SetVariable GamesSectionCurrentHeightDynamic "(#GamesSectionCurrentHeightDynamic# <> 0 ? 0 :#GamesSectionExpandedHeight#)"][!Update]
 DynamicVariables=1
 
 [MeterProgramSteam]

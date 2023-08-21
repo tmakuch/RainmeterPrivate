@@ -6,7 +6,7 @@ W=#ContainerWidth#
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Daily"
-LeftMouseUpAction=[!SetVariable DailySectionCurrentHeightDynamic "(#DailySectionCurrentHeightDynamic# <> 0 ? 0 :#DailySectionExpandedHeight#)"][!SetVariable CxomsSectionCurrentHeightDynamic 0][!SetVariable GamesSectionCurrentHeightDynamic 0][!SetVariable CodingSectionCurrentHeightDynamic 0][!SetVariable StreamingSectionCurrentHeightDynamic 0][!SetVariable EditingSectionCurrentHeightDynamic 0][!Update]
+LeftMouseUpAction=#ActionTriggerCloseAllTimer##ActionCloseAllDrawers#[!SetVariable DailySectionCurrentHeightDynamic "(#DailySectionCurrentHeightDynamic# <> 0 ? 0 :#DailySectionExpandedHeight#)"][!Update]
 DynamicVariables=1
 
 [MeterProgramSpotify]
