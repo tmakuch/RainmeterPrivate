@@ -99,9 +99,3 @@ Measure=Plugin
 Plugin=Process
 ProcessName=blender.exe
 Substitute="1":"0","-1":"1","-0":"1"
-
-[MeasureHandBreakHideRunning]
-Measure=Plugin
-Plugin=Process
-ProcessName=HandBrake.exe
-Substitute="1":"0","-1":"1","-0":"1"

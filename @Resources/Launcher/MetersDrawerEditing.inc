@@ -114,44 +114,9 @@ MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png
 DynamicVariables=1
 
-[MeterProgramHanbBreak]
-Meter=String
-X=(2.5*#LauncherMargin#)
-Y=(#LineHeight#+#VerticalOffset#)r
-Hidden=(#EditingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-Text="HanbBreak"
-LeftMouseUpAction=["C:\Program Files\HandBrake\HandBrake.exe"]
-DynamicVariables=1
-
-[MeterProgramHandBreakIconInline]
-Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#EditingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\handbreak.png
-DynamicVariables=1
-
-[MeterProgramHandBreakActiveInline]
-Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#EditingSectionCurrentHeightDynamic# = 0 || [MeasureHandBreakHideRunning] ? 1 : 0)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\active-overlay.png
-DynamicVariables=1
-
 [MeterProgramGimpIcon]
 Meter=Image
-X=#IconsOffset#
+X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
 Y=([MeterEditingTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -163,7 +128,7 @@ DynamicVariables=1
 
 [MeterProgramGimpActive]
 Meter=Image
-X=#IconsOffset#
+X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -175,7 +140,7 @@ DynamicVariables=1
 
 [MeterProgramAudacityIcon]
 Meter=Image
-X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
+X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -187,7 +152,7 @@ DynamicVariables=1
 
 [MeterPrograAudacityActive]
 Meter=Image
-X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
+X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -199,7 +164,7 @@ DynamicVariables=1
 
 [MeterProgramBlenderIcon]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -211,35 +176,11 @@ DynamicVariables=1
 
 [MeterProgramBlenderActive]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
 Hidden=(#EditingSectionCurrentHeightDynamic# > 0 || [MeasureBlenderHideRunning] ? 1 : 0)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\active-overlay.png
-DynamicVariables=1
-
-[MeterProgramHandBreakIcon]
-Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#EditingSectionCurrentHeightDynamic# > 0 ? 1 : 0)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\handbreak.png
-DynamicVariables=1
-
-[MeterProgramHandBreakActive]
-Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#EditingSectionCurrentHeightDynamic# > 0 || [MeasureHandBreakHideRunning] ? 1 : 0)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png

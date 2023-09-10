@@ -3,10 +3,8 @@ Licensed under Creative Commons Attribution-Non-Commercial-Share Alike 3.0
 
 ## Instalation
 ### Instaling skin
-Clone this repository to your skins folder, i.e.
-```
-D:\Documents\Rainmeter\Skins
-```
+1. Download webnowplaying plugin from [https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/releases/tag/2.0.7](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/releases/tag/2.0.7`) and copy it to `%appdata%\Rainmeter\Plugins`
+2. Clone this repository to your skins folder, most probably `D:\Documents\Rainmeter\Skins`
 
 ### Getting spotify stats on rainmeter
 Old was was to get webnowplaying, a plugin through Specitify (tool to customize Spotify), but now Spotify supports NativeApi which sends information to Windows directly. Rainmeter is able to tap into this stream.
