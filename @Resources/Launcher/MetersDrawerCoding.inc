@@ -52,7 +52,7 @@ Hidden=(#CodingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="VS Code"
-LeftMouseUpAction=["C:\Users\tedeusz\AppData\Local\Programs\Microsoft VS Code\Code.exe"]
+LeftMouseUpAction=["%localappdata%\Programs\Microsoft VS Code\Code.exe"]
 DynamicVariables=1
 
 [MeterProgramVSCodeIconInline]

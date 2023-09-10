@@ -17,7 +17,7 @@ Hidden=(#ComsSectionCurrentHeightDynamic# > 0 ? 0 : 1)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Discord"
-LeftMouseUpAction=["C:\Users\tedeusz\AppData\Local\Discord\Update.exe" "--processStart" "Discord.exe"]
+LeftMouseUpAction=["%localappdata%\Discord\Update.exe" "--processStart" "Discord.exe"]
 DynamicVariables=1
 
 [MeterProgramDiscordIconInline]
@@ -52,7 +52,7 @@ Hidden=(#ComsSectionCurrentHeightDynamic# > 0 ? 0 : 1)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Telegram"
-LeftMouseUpAction=["C:\Users\tedeusz\AppData\Roaming\Telegram Desktop\Telegram.exe"]
+LeftMouseUpAction=["%appdata%\Telegram Desktop\Telegram.exe"]
 DynamicVariables=1
 
 [MeterProgramTelegramIconInline]
@@ -87,7 +87,7 @@ Hidden=(#ComsSectionCurrentHeightDynamic# > 0 ? 0 : 1)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Slack"
-LeftMouseUpAction=["C:\Users\tedeusz\AppData\Local\slack\slack.exe"]
+LeftMouseUpAction=["%localappdata%\slack\slack.exe"]
 DynamicVariables=1
 
 [MeterProgramSlackIconInline]

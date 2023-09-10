@@ -17,7 +17,7 @@ Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 0 : 1)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 Text="Spotify"
-LeftMouseUpAction=["C:\Users\tedeusz\AppData\Roaming\Spotify\Spotify.exe"]
+LeftMouseUpAction=["%appdata%\Spotify\Spotify.exe"]
 DynamicVariables=1
 
 [MeterProgramSpotifyIconInline]
