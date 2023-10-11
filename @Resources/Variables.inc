@@ -1,6 +1,7 @@
 [Variables]
 ScrollMouseIncrement=0.1
-BackgroundColor=0,0,0
+SolidBackgroundColor=0,0,0
+BackgroundColor=#SolidBackgroundColor#,128
 PrimaryColor=255,255,255
 SecondaryColor=255,255,255,99
 VisualizerSensitivityValue=35

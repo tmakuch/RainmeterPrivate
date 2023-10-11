@@ -10,6 +10,12 @@ Plugin=Process
 ProcessName=chrome.exe
 Substitute="1":"0","-1":"1","-0":"1"
 
+[MeasureNordVPNHideRunning]
+Measure=Plugin
+Plugin=Process
+ProcessName=NordVPN.exe
+Substitute="1":"0","-1":"1","-0":"1"
+
 [MeasureDiscordHideRunning]
 Measure=Plugin
 Plugin=Process
@@ -50,6 +56,12 @@ Substitute="1":"0","-1":"1","-0":"1"
 Measure=Plugin
 Plugin=Process
 ProcessName=GalaxyClient.exe
+Substitute="1":"0","-1":"1","-0":"1"
+
+[MeasureOpenVPNHideRunning]
+Measure=Plugin
+Plugin=Process
+ProcessName=OpenVPNConnect.exe
 Substitute="1":"0","-1":"1","-0":"1"
 
 [MeasureWebstormHideRunning]

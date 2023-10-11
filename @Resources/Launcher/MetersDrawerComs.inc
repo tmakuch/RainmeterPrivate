@@ -22,7 +22,7 @@ DynamicVariables=1
 
 [MeterProgramDiscordIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=#SingleIconOffset#r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -34,7 +34,7 @@ DynamicVariables=1
 
 [MeterProgramDiscordActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -57,7 +57,7 @@ DynamicVariables=1
 
 [MeterProgramTelegramIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -69,7 +69,7 @@ DynamicVariables=1
 
 [MeterProgramTelegramActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -92,7 +92,7 @@ DynamicVariables=1
 
 [MeterProgramSlackIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -104,7 +104,7 @@ DynamicVariables=1
 
 [MeterProgramSlackActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -116,7 +116,7 @@ DynamicVariables=1
 
 [MeterProgramDiscordIcon]
 Meter=Image
-X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
+X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
 Y=([MeterComsTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -128,7 +128,7 @@ DynamicVariables=1
 
 [MeterProgramDiscordActive]
 Meter=Image
-X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
+X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -140,7 +140,7 @@ DynamicVariables=1
 
 [MeterProgramTelegramIcon]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -152,7 +152,7 @@ DynamicVariables=1
 
 [MeterProgramTelegramActive]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -164,7 +164,7 @@ DynamicVariables=1
 
 [MeterProgramSlackIcon]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -176,7 +176,7 @@ DynamicVariables=1
 
 [MeterProgramSlackActive]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)

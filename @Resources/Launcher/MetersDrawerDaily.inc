@@ -22,7 +22,7 @@ DynamicVariables=1
 
 [MeterProgramSpotifyIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=#SingleIconOffset#r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -34,7 +34,7 @@ DynamicVariables=1
 
 [MeterProgramSpotifyActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -57,7 +57,7 @@ DynamicVariables=1
 
 [MeterProgramChromeIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -69,11 +69,46 @@ DynamicVariables=1
 
 [MeterProgramChromeActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
 Hidden=(#DailySectionCurrentHeightDynamic# = 0 || [MeasureChromeHideRunning] ? 1 : 0)
+Container=MeterLauncherContainer
+MeterStyle=PrimaryTextStyle
+ImageName=#@#Launcher\Icons\active-overlay.png
+DynamicVariables=1
+
+[MeterProgramNordVPN]
+Meter=String
+X=(2.5*#LauncherMargin#)
+Y=(#LineHeight#+#VerticalOffset#)r
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 0 : 1)
+Container=MeterLauncherContainer
+MeterStyle=PrimaryTextStyle
+Text="NordVPN"
+LeftMouseUpAction=["C:\Program Files\NordVPN\NordVPN.exe"]
+DynamicVariables=1
+
+[MeterProgramNordVPNIconInline]
+Meter=Image
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
+Y=r
+W=(#LineHeight#-2*#SingleIconOffset#)
+H=(#LineHeight#-2*#SingleIconOffset#)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 0 : 1)
+Container=MeterLauncherContainer
+MeterStyle=PrimaryTextStyle
+ImageName=#@#Launcher\Icons\nordvpn.png
+DynamicVariables=1
+
+[MeterProgramNordVPNActiveInline]
+Meter=Image
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
+Y=r
+W=(#LineHeight#-2*#SingleIconOffset#)
+H=(#LineHeight#-2*#SingleIconOffset#)
+Hidden=(#DailySectionCurrentHeightDynamic# = 0 || [MeasureNordVPNHideRunning] ? 1 : 0)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png
@@ -122,6 +157,30 @@ Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
 Hidden=(#DailySectionCurrentHeightDynamic# > 0 || [MeasureChromeHideRunning] ? 1 : 0)
+Container=MeterLauncherContainer
+MeterStyle=PrimaryTextStyle
+ImageName=#@#Launcher\Icons\active-overlay.png
+DynamicVariables=1
+
+[MeterProgramNordVPNIcon]
+Meter=Image
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
+Y=r
+W=(#LineHeight#-2*#SingleIconOffset#)
+H=(#LineHeight#-2*#SingleIconOffset#)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 ? 1 : 0)
+Container=MeterLauncherContainer
+MeterStyle=PrimaryTextStyle
+ImageName=#@#Launcher\Icons\nordvpn.png
+DynamicVariables=1
+
+[MeterProgramNordVPNActive]
+Meter=Image
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
+Y=r
+W=(#LineHeight#-2*#SingleIconOffset#)
+H=(#LineHeight#-2*#SingleIconOffset#)
+Hidden=(#DailySectionCurrentHeightDynamic# > 0 || [MeasureNordVPNHideRunning] ? 1 : 0)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png

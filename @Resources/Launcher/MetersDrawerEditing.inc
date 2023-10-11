@@ -22,7 +22,7 @@ DynamicVariables=1
 
 [MeterProgramGimpIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=#SingleIconOffset#r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -34,7 +34,7 @@ DynamicVariables=1
 
 [MeterProgramGimpActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -57,7 +57,7 @@ DynamicVariables=1
 
 [MeterProgramAudacityIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -69,7 +69,7 @@ DynamicVariables=1
 
 [MeterPrograAudacityActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -92,7 +92,7 @@ DynamicVariables=1
 
 [MeterProgramBlenderIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -104,7 +104,7 @@ DynamicVariables=1
 
 [MeterProgramBlenderActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -116,7 +116,7 @@ DynamicVariables=1
 
 [MeterProgramGimpIcon]
 Meter=Image
-X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
+X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
 Y=([MeterEditingTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -128,7 +128,7 @@ DynamicVariables=1
 
 [MeterProgramGimpActive]
 Meter=Image
-X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
+X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -140,7 +140,7 @@ DynamicVariables=1
 
 [MeterProgramAudacityIcon]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -152,7 +152,7 @@ DynamicVariables=1
 
 [MeterPrograAudacityActive]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -164,7 +164,7 @@ DynamicVariables=1
 
 [MeterProgramBlenderIcon]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -176,7 +176,7 @@ DynamicVariables=1
 
 [MeterProgramBlenderActive]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)

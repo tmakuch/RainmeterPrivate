@@ -22,7 +22,7 @@ DynamicVariables=1
 
 [MeterProgramObsStudioIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=#SingleIconOffset#r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -34,7 +34,7 @@ DynamicVariables=1
 
 [MeterProgramObsStudioActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -57,7 +57,7 @@ DynamicVariables=1
 
 [MeterProgramSoundBoardIconInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -69,7 +69,7 @@ DynamicVariables=1
 
 [MeterProgramSoundBoardActiveInline]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -81,7 +81,7 @@ DynamicVariables=1
 
 [MeterProgramObsStudioIcon]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=([MeterStreamingTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -93,7 +93,7 @@ DynamicVariables=1
 
 [MeterProgramObsStudioActive]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -105,7 +105,7 @@ DynamicVariables=1
 
 [MeterProgramSoundBoardIcon]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -117,7 +117,7 @@ DynamicVariables=1
 
 [MeterProgramSoundBoardActive]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
