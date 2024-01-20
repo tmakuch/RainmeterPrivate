@@ -44,44 +44,44 @@ MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png
 DynamicVariables=1
 
-[MeterProgramSoundBoard]
-Meter=String
-X=(2.5*#LauncherMargin#)
-Y=(#LineHeight#+#VerticalOffset#)r
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-Text="SoundBoard"
-LeftMouseUpAction=["C:\Program Files (x86)\Deathcounter and Soundboard\DCSB.exe"]
-DynamicVariables=1
+; [MeterProgramSoundBoard]
+; Meter=String
+; X=(2.5*#LauncherMargin#)
+; Y=(#LineHeight#+#VerticalOffset#)r
+; Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
+; Container=MeterLauncherContainer
+; MeterStyle=PrimaryTextStyle
+; Text="SoundBoard"
+; LeftMouseUpAction=["C:\Program Files (x86)\Deathcounter and Soundboard\DCSB.exe"]
+; DynamicVariables=1
 
-[MeterProgramSoundBoardIconInline]
-Meter=Image
-X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\soundboard.png
-DynamicVariables=1
+; [MeterProgramSoundBoardIconInline]
+; Meter=Image
+; X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
+; Y=r
+; W=(#LineHeight#-2*#SingleIconOffset#)
+; H=(#LineHeight#-2*#SingleIconOffset#)
+; Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 0 : 1)
+; Container=MeterLauncherContainer
+; MeterStyle=PrimaryTextStyle
+; ImageName=#@#Launcher\Icons\soundboard.png
+; DynamicVariables=1
 
-[MeterProgramSoundBoardActiveInline]
-Meter=Image
-X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# = 0 || [MeasureSoundBoardHideRunning] ? 1 : 0)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\active-overlay.png
-DynamicVariables=1
+; [MeterProgramSoundBoardActiveInline]
+; Meter=Image
+; X=(#IconsOffset#+#LastIconCount#*(#LineHeight#-#SingleIconOffset#))
+; Y=r
+; W=(#LineHeight#-2*#SingleIconOffset#)
+; H=(#LineHeight#-2*#SingleIconOffset#)
+; Hidden=(#StreamingSectionCurrentHeightDynamic# = 0 || [MeasureSoundBoardHideRunning] ? 1 : 0)
+; Container=MeterLauncherContainer
+; MeterStyle=PrimaryTextStyle
+; ImageName=#@#Launcher\Icons\active-overlay.png
+; DynamicVariables=1
 
 [MeterProgramObsStudioIcon]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=([MeterStreamingTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -93,7 +93,7 @@ DynamicVariables=1
 
 [MeterProgramObsStudioActive]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -103,26 +103,26 @@ MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png
 DynamicVariables=1
 
-[MeterProgramSoundBoardIcon]
-Meter=Image
-X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 1 : 0)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\soundboard.png
-DynamicVariables=1
+; [MeterProgramSoundBoardIcon]
+; Meter=Image
+; X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
+; Y=r
+; W=(#LineHeight#-2*#SingleIconOffset#)
+; H=(#LineHeight#-2*#SingleIconOffset#)
+; Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 ? 1 : 0)
+; Container=MeterLauncherContainer
+; MeterStyle=PrimaryTextStyle
+; ImageName=#@#Launcher\Icons\soundboard.png
+; DynamicVariables=1
 
-[MeterProgramSoundBoardActive]
-Meter=Image
-X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 || [MeasureSoundBoardHideRunning] ? 1 : 0)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\active-overlay.png
-DynamicVariables=1
+; [MeterProgramSoundBoardActive]
+; Meter=Image
+; X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
+; Y=r
+; W=(#LineHeight#-2*#SingleIconOffset#)
+; H=(#LineHeight#-2*#SingleIconOffset#)
+; Hidden=(#StreamingSectionCurrentHeightDynamic# > 0 || [MeasureSoundBoardHideRunning] ? 1 : 0)
+; Container=MeterLauncherContainer
+; MeterStyle=PrimaryTextStyle
+; ImageName=#@#Launcher\Icons\active-overlay.png
+; DynamicVariables=1

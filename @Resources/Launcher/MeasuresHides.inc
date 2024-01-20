@@ -58,12 +58,6 @@ Plugin=Process
 ProcessName=GalaxyClient.exe
 Substitute="1":"0","-1":"1","-0":"1"
 
-[MeasureOpenVPNHideRunning]
-Measure=Plugin
-Plugin=Process
-ProcessName=OpenVPNConnect.exe
-Substitute="1":"0","-1":"1","-0":"1"
-
 [MeasureWebstormHideRunning]
 Measure=Plugin
 Plugin=Process
@@ -88,11 +82,11 @@ Plugin=Process
 ProcessName=obs64.exe
 Substitute="1":"0","-1":"1","-0":"1"
 
-[MeasureSoundBoardHideRunning]
-Measure=Plugin
-Plugin=Process
-ProcessName=DCSB.exe
-Substitute="1":"0","-1":"1","-0":"1"
+; [MeasureSoundBoardHideRunning]
+; Measure=Plugin
+; Plugin=Process
+; ProcessName=DCSB.exe
+; Substitute="1":"0","-1":"1","-0":"1"
 
 [MeasureGimpHideRunning]
 Measure=Plugin

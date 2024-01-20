@@ -149,44 +149,9 @@ MeterStyle=PrimaryTextStyle
 ImageName=#@#Launcher\Icons\active-overlay.png
 DynamicVariables=1
 
-[MeterProgramOpenVPN]
-Meter=String
-X=(2.5*#LauncherMargin#)
-Y=(#LineHeight#+#VerticalOffset#)r
-Hidden=(#GamesSectionCurrentHeightDynamic# > 0 ? 0 : 1)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-Text="OpenVPN"
-LeftMouseUpAction=["C:\Program Files\OpenVPN Connect\OpenVPNConnect.exe"]
-DynamicVariables=1
-
-[MeterProgramOpenVPNConnectIconInline]
-Meter=Image
-X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#GamesSectionCurrentHeightDynamic# > 0 ? 0 : 1)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\openvpn.png
-DynamicVariables=1
-
-[MeterProgramOpenVPNConnectActiveInline]
-Meter=Image
-X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#GamesSectionCurrentHeightDynamic# = 0 || [MeasureOpenVPNHideRunning] ? 1 : 0)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\active-overlay.png
-DynamicVariables=1
-
 [MeterProgramSteamIcon]
 Meter=Image
-X=#IconsOffset#
+X=(#IconsOffset#+1*(#LineHeight#-#SingleIconOffset#))
 Y=([MeterGamesTitle:Y]+#SingleIconOffset#)
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -198,7 +163,7 @@ DynamicVariables=1
 
 [MeterProgramSteamActive]
 Meter=Image
-X=#IconsOffset#
+X=(#IconsOffset#+1*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -210,7 +175,7 @@ DynamicVariables=1
 
 [MeterProgramBattleNetIcon]
 Meter=Image
-X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
+X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -222,7 +187,7 @@ DynamicVariables=1
 
 [MeterProgramBattleNetActive]
 Meter=Image
-X=(#IconsOffset#+#LineHeight#-#SingleIconOffset#)
+X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -234,7 +199,7 @@ DynamicVariables=1
 
 [MeterProgramUbisoftConnectIcon]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -246,7 +211,7 @@ DynamicVariables=1
 
 [MeterProgramUbisoftConnectActive]
 Meter=Image
-X=(#IconsOffset#+2*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -258,7 +223,7 @@ DynamicVariables=1
 
 [MeterProgramGOGConnectIcon]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 H=(#LineHeight#-2*#SingleIconOffset#)
@@ -270,34 +235,10 @@ DynamicVariables=1
 
 [MeterProgramGOGConnectActive]
 Meter=Image
-X=(#IconsOffset#+3*(#LineHeight#-#SingleIconOffset#))
+X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
 Y=r
 W=(#LineHeight#-2*#SingleIconOffset#)
 Hidden=(#GamesSectionCurrentHeightDynamic# > 0 || [MeasureGOGConnectHideRunning] ? 1 : 0)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\active-overlay.png
-DynamicVariables=1
-
-[MeterProgramOpenVPNIcon]
-Meter=Image
-X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-H=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#GamesSectionCurrentHeightDynamic# > 0 ? 1 : 0)
-Container=MeterLauncherContainer
-MeterStyle=PrimaryTextStyle
-ImageName=#@#Launcher\Icons\openvpn.png
-DynamicVariables=1
-
-[MeterProgramOpenVPNActive]
-Meter=Image
-X=(#IconsOffset#+4*(#LineHeight#-#SingleIconOffset#))
-Y=r
-W=(#LineHeight#-2*#SingleIconOffset#)
-Hidden=(#GamesSectionCurrentHeightDynamic# > 0 || [MeasureOpenVPNHideRunning] ? 1 : 0)
 H=(#LineHeight#-2*#SingleIconOffset#)
 Container=MeterLauncherContainer
 MeterStyle=PrimaryTextStyle
