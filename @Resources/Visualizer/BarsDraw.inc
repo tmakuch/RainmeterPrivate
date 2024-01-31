@@ -798,6 +798,16 @@ Text=#Sq2#
 AntiAlias=1
 Angle=(Rad(270))
 
+[MeterBase80]
+Meter=String
+X=(#Scale#*#Space#)r
+Y=0r
+FontSize=(#Scale#*#FontMultiplier#)
+FontColor=#VisualizerBandColor#
+Text=#Sq2#
+AntiAlias=1
+Angle=(Rad(270))
+
 
 ;============METERS BANDS===============
 

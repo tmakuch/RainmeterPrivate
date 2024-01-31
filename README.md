@@ -12,11 +12,12 @@ Old was was to get webnowplaying, a plugin through Specitify (tool to customize 
 Go to settings in Spotify and make sure `Show desktop overlay when using media keys` is enabled.
 
 ### Using prepared layout
-Layout file (`layout.ini`) should be named `Rainmeter.ini` and stored in folder:
+Layout files (`layout_main.ini` and `layout_small.ini`) should be named `Rainmeter.ini` and stored in folders:
 ```
-C:\Users\_user_\AppData\Roaming\Rainmeter\Layouts\RainmeterPrivate
+C:\Users\_user_\AppData\Roaming\Rainmeter\Layouts\On main
+C:\Users\_user_\AppData\Roaming\Rainmeter\Layouts\On small
 ```
-This is only a backup. Once the backup is placed in layouts folder, simply go to layouts panel in Rainmeter and load this layout.
+This is only a backup. Once the backup is placed in layouts folder, simply go to layouts panel in Rainmeter and load your layout.
 
 ## What it's based on
 ### Clock - Mond
